@@ -21,6 +21,9 @@ __pycache__/
 *.swp
 *.swo
 
+# Generated Application Outputs
+output/
+
 # OS artifacts
 Thumbs.db
 Desktop.ini

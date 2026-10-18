@@ -2,6 +2,7 @@
 
 from .chunker import chunk_text, summarize_large_document
 from .config import ConfigurationError, Settings, get_llm_client, get_settings
+from .exporters import export_summary
 from .ingestion import (
     EmptyDocumentError,
     UnsupportedFileTypeError,
@@ -25,4 +26,5 @@ __all__ = [
     "UnsupportedFileTypeError",
     "chunk_text",
     "summarize_large_document",
+    "export_summary",
 ]
